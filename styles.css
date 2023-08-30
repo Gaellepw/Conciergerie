@@ -1,0 +1,143 @@
+/* Réinitialisation des styles */
+/* Styles généraux */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5; /* Couleur de fond */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.non-sticky-header {
+  position: relative; /* Utilisez "relative" ou "static" pour désactiver la position sticky */
+  z-index: 0; /* La valeur de z-index n'est pas nécessaire, sauf si vous en avez besoin pour d'autres éléments de la page */
+}
+
+.hero {
+  background-image: url("hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-align: center;
+  color: #fff;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 20px;
+}
+
+/* ... (Vos autres styles) ... */
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7b7e80; /* Gris clair */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #404747; /* Gris plus foncé au survol */
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7b7e80; /* Gris clair */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #404747; /* Gris plus foncé au survol */
+}
+
+#services {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.service {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Couleurs complémentaires */
+.service .icon {
+  color: #007bff;
+  font-size: 64px; /* Icones plus grandes */
+  margin-bottom: 20px; /* Espacement sous l'icône */
+}
+
+.service h3 {
+  color: #333;
+}
+
+/* Styles pour les puces personnalisées */
+.custom-list {
+  padding-left: 0;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 1.3em; /* Espacement entre la puce et le texte */
+  list-style: none; /* Supprime la puce par défaut */
+}
+
+.custom-list li:before {
+  content: "\2022"; /* Code Unicode pour le symbole de la puce (en l'occurrence, un point) */
+  font-size: 12px; /* Taille de la puce */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.custom-list-group .list-group-item {
+  border: none; /* Supprimer le trait de séparation */
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}

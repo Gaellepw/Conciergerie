@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KeyProperty Solutions</title>
+  <!-- Add the Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Add the Bootstrap container class -->
+      <div class="container">
+        <a class="navbar-brand" href="#">KeyProperty Solutions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="services.html" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pourquoi nous?
+              </a>
+              <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <a class="dropdown-item" href="./services.html">Tous nos services</a>
+                <a class="dropdown-item" href="./gestion-annonces.html">Gestion des annonces</a>
+                <a class="dropdown-item" href="./gestion-invites.html">Gestion des invités</a>
+                <a class="dropdown-item" href="./gestion-propriete.html">Gestion des propriétés</a>
+              </div>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tarifs.html">Tarifs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+
+  </header>
+
+  <section id="tarifs" class="bg-light py-5">
+    <div class="container">
+      <h3 class="text-center mb-4">Grille tarifaire</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+              <h4 class="card-title">Abonnement Basique</h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-group custom-list-group">
+                <li class="list-group-item">Nombre d'annonces : 5</li>
+                <li class="list-group-item"><i class="fas fa-times"></i> Photographie professionnelle</li>
+                <li class="list-group-item"><i class="fas fa-times"></i> Optimisation des prix</li>
+                <!-- Ajoutez d'autres caractéristiques du plan basique ici -->
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary btn-block">S'inscrire</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-header bg-success text-white">
+              <h4 class="card-title">Abonnement Standard</h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-group custom-list-group">
+                <li class="list-group-item">Nombre d'annonces : 20</li>
+                <li class="list-group-item"><i class="fas fa-check"></i> Photographie professionnelle</li>
+                <li class="list-group-item"><i class="fas fa-check"></i> Optimisation des prix</li>
+                <!-- Ajoutez d'autres caractéristiques du plan standard ici -->
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-success btn-block">S'inscrire</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-header bg-warning text-white">
+              <h4 class="card-title">Abonnement Premium</h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-group custom-list-group">
+                <li class="list-group-item">Nombre d'annonces : Illimité</li>
+                <li class="list-group-item"><i class="fas fa-check"></i> Photographie professionnelle</li>
+                <li class="list-group-item"><i class="fas fa-check"></i> Optimisation des prix</li>
+                <!-- Ajoutez d'autres caractéristiques du plan premium ici -->
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-warning btn-block">S'inscrire</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <section id="prestations" class="py-5">
+    <div class="container">
+      <h3 class="text-center mb-4">Prestations à la carte</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Prestation</th>
+              <th>Abonnement Basique</th>
+              <th>Abonnement Standard</th>
+              <th>Abonnement Premium</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Photographie professionnelle</td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-check"></i></td>
+              <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <td>Création d'annonces</td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <td>Optimisation des prix</td>
+              <td><i class="fas fa-times"></i></td>
+              <td><i class="fas fa-check"></i></td>
+              <td><i class="fas fa-check"></i></td>
+            </tr>
+            <!-- Ajoutez d'autres prestations à la carte avec les options des abonnements ici -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 KeyProperty. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
